@@ -11,7 +11,7 @@
 
 @class IGXMLNode;
 
-typedef id (^IGScraperBlock)(IGXMLNode* node, NSString* url);
+
 
 extern NSString* const IGScraperErrorDomain;
 

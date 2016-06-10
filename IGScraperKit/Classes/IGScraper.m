@@ -8,6 +8,7 @@
 
 #import "IGScraper.h"
 #import "IGHTMLQuery.h"
+#import "IGXMLNode.h"
 
 NSString* const IGScraperErrorDomain = @"IGScraperError";
 

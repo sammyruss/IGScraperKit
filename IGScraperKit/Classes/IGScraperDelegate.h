@@ -8,7 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-#import "IGScraper.h"
+//#import "IGScraper.h"
+
+@class IGXMLNode;
+
+typedef id (^IGScraperBlock)(IGXMLNode* node, NSString* url);
 
 @protocol IGScraping;
 
