@@ -15,10 +15,7 @@
 
 extern NSString* const IGScraperErrorDomain;
 
-NS_ENUM(NSInteger, IGScraperErrors) {
-    IGScraperErrorUndefinedScraperBlock = 1,
-    IGScraperErrorScriptingError = 2
-};
+
 
 /**
  A IGScraper can scrape a HTML page and return arbitary object.

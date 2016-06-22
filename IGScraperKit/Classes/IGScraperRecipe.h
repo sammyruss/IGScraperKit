@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "IGScraperKit.h"
 #import "IGScraperDelegate.h"
 
 extern NSString* const IGScraperRecipeErrorDomain;

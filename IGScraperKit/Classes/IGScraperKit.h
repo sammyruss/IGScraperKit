@@ -11,8 +11,8 @@
 
 #import "IGScraper.h"
 
-#ifdef IGSCRAPERKIT_ENABLE_SCRIPTING
-#import "IGRecipeRegistry.h"
-#endif
+//#ifdef IGSCRAPERKIT_ENABLE_SCRIPTING
+//#import "IGRecipeRegistry.h"
+//#endif
 
 #endif

@@ -8,7 +8,12 @@
 
 #import "IGScraper.h"
 #import "IGHTMLQuery.h"
-#import "IGXMLNode.h"
+
+NS_ENUM(NSInteger, IGScraperErrors)
+{
+    IGScraperErrorUndefinedScraperBlock = 1,
+    IGScraperErrorScriptingError = 2
+};
 
 NSString* const IGScraperErrorDomain = @"IGScraperError";
 
